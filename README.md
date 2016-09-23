@@ -28,7 +28,7 @@ table_name: 'test_table'
 columns: 'column1, column2, column3, column4'
 ```
 
-Modify these to the correct parameters listed in the AWS console then change the name of the file to config.yaml.
+Modify these to the correct parameters listed in the AWS console then change the name of the file to `config.yaml`. Fill in `table_name` with the table you want to insert into. Fill in `columns` with the columns from the table, which should match the CSV. No, I didn't build in handling to read the header of the CSV :). 
 
 
 ## Usage
