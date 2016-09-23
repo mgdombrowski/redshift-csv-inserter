@@ -28,7 +28,7 @@ table_name: 'test_table'
 columns: 'column1, column2, column3, column4'
 ```
 
-Modify these to the correct parameters listed in the AWS console.
+Modify these to the correct parameters listed in the AWS console then change the name of the file to config.yaml.
 
 
 ## Usage
