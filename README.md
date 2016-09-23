@@ -1,5 +1,11 @@
 # redshift-csv-inserter
-Super quick and dirty way to insert local CSV files into Redshift. Assumes you're running Python 2.x. It'll try to insert everything as a string so you'll have to modify it to handle numeric types.
+Super quick and dirty way to insert local CSV files into Redshift. Assumes you're running Python 2.x. The script will create a multi-row insert based on a table name, columns, and CSV file you specify:
+```
+INSERT into test_table (column1, column2, column3, column4) VALUES 
+  ('this', ' is', ' line', ' one'), 
+  ('this', ' is', ' line', ' two'), 
+  ('this', ' is', ' line', ' three');
+```
 
 ## Requirements
 
