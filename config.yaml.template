@@ -1,0 +1,8 @@
+# Redshift
+redshift_endpoint: '<name>.<id>.<region>.redshift.amazonaws.com'
+redshift_user: 'admin'
+redshift_password: 'password'
+redshift_port: '5439'
+redshift_database: 'dev'
+table_name: 'test_table'
+columns: 'column1, column2, column3, column4'
